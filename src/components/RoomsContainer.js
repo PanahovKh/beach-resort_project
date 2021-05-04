@@ -14,10 +14,10 @@ export default function RoomsContainer() {
                     return <Loading />
                 }
                 return (
-                    <>
+                    <div>
                         <RoomsFilter rooms={rooms} />
                         <RoomList rooms={sortedRooms} />
-                    </>
+                    </div>
                 )
             }}
         </RoomConsumer>
