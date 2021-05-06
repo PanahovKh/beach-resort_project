@@ -21,7 +21,6 @@ export default function RoomsFilter({rooms}) {
         pets,    
         handleChange
     } = context
-console.log( maxSize);
 
     let types = getUnique(rooms, 'type')    
     types = ['all', ...types]
